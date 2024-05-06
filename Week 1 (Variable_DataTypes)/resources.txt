@@ -1,0 +1,4 @@
+Course: https://app.pluralsight.com/library/courses/fundamentals-javascript/table-of-contents
+
+Modules: 2-3 Covers how to get started with js and how variables and data types work
+
