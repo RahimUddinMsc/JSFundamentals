@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JS Fundamentals</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./Exercises/helpers.js"></script>
+    
+    <body>
+                
+        <h1 id="header">This is an exercise for: </h1>            
+
+        <hr>
+
+        <h4>Looped list</h4>
+        <ul>
+            <li class="list-item">Item: </li>
+            <li class="list-item">Item: </li>
+            <li class="list-item">Item: </li>            
+        </ul>
+        
+        <hr>
+
+        <div id="missing-child-index">
+            <h4>Missing Child Index</h4>
+            <div>Child Item: 0</div>
+            <div>Child Item: </div>
+            <div>Child Item: 2</div>
+        </div>
+        <br>
+        <hr>
+
+        <div>
+            <h4>Missing Option Index</h4>
+            <div data-option="1">Option: 0</div>
+            <div data-option="2">Option: </div>
+            <div data-option="3">Option: 2</div>
+        </div>
+        <br>
+
+        <hr>
+        <div>
+            <h4 id="color-switch" >Change Color</h4>            
+        </div>
+
+        <hr>
+        <div id="hide-me">
+            <h4>Hide Me</h4>            
+        </div>
+
+        <hr>
+        <div id="remove-me">
+            <h4>Remove Me</h4>            
+        </div>
+
+        <hr>        
+        <div id="add-element">
+              
+        </div>
+
+        <hr>        
+        <div id="html-click">
+            <h4>HTML Click</h4> 
+            <!-- SOLUTION -->
+            <button onclick="clickEvent('Tom')">Click ME</button> 
+        </div>
+
+        <hr>        
+        <div>
+            <h4 id="event-click">Event Click</h4>             
+        </div>
+
+        <hr>        
+        <div>
+            <h4>Multi Click</h4>
+            <div id="first-click">
+                First Click
+                <div id="second-click">
+                    Second Click
+                </div>
+            </div>            
+        </div>
+
+        <hr>        
+        <div>
+            <h4>List Addittion</h4>
+            <ol id="list-add">
+                <li>Tom</li>
+                <li>Carl</li>                
+            </ol>
+            <button id="list-add-btn">Add List Item</button>
+        </div>
+
+        <hr>        
+        <div class="bg-default">
+            <h2 id="bg-switch">Background Switch</h2>            
+        </div>
+        <br>
+
+        <hr>        
+        <div id="form-container">
+            <h2>Form</h2>            
+            <form id="form-input">
+                <label for="name">Name:</label>
+                <input type="text" id="name" value="Tom"><br><br>
+              
+                <label for="color">Choose a color:</label>
+                <select id="color">
+                  <option value="green">Green</option>
+                  <option value="red">Red</option>
+                  <option value="blue" selected>Blue</option>
+                </select><br><br>
+              
+                <label>Are you available?</label><br>
+                <input type="radio" id="yes" name="availability" value="yes" checked>
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="availability" value="no">
+                <label for="no">No</label><br><br>
+              
+                <label>Select available time slots:</label><br>
+                <input type="checkbox" id="slot1" name="timeslots" value="9am-11am" checked>
+                <label for="slot1">9am - 11am</label><br>
+                <input type="checkbox" id="slot2" name="timeslots" value="1pm-3pm">
+                <label for="slot2">1pm - 3pm</label><br>
+                <input type="checkbox" id="slot3" name="timeslots" value="5pm-8pm" checked>
+                <label for="slot3">5pm - 8pm</label><br><br>
+              
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments">Training material</textarea><br><br>
+              
+                <input type="submit" value="Submit">
+              </form>    
+        </div>
+
+        <script src="./Exercises/ex3.js"></script>
+        <script src="./Exercises/ex4.js"></script>
+        <script src="./Exercises/ex5.js"></script>
+        <script src="./Exercises/ex6.js"></script>
+        <script src="./Exercises/ex7.js"></script>
+        <script src="./Exercises/ex8.js"></script>
+        <script src="./Exercises/ex9.js"></script>
+        <script src="./Exercises/ex11.js"></script>
+        <script src="./Exercises/ex12.js"></script>
+        <script src="./Exercises/ex13.js"></script>
+        <script src="./Exercises/ex14.js"></script>
+        <script src="./Exercises/ex15.js"></script>
+        <script src="./Exercises/ex16.js"></script>
+
+        <!-- Solution -->        
+        <script type="module">          
+          import moduleSupported from './Exercises/ex17.js';
+          
+          moduleSupported();
+        </script>
+    </body>
+</html>

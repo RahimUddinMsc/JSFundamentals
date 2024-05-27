@@ -1,0 +1,18 @@
+.hide{
+    display: none;
+}
+
+.bg-default{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background:green;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.bg-red{
+    background: red !important;
+}

@@ -1,0 +1,3 @@
+Requirements - Download VS Exstension called 'Live Server'
+
+Course: https://app.pluralsight.com/library/courses/javascript-browser/table-of-contents
