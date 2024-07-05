@@ -63,15 +63,19 @@
 
 
 
-
+//----
 // what does Promise.allSettled[p1,p2,p3] do and how does it compate to 'race' and 'all'?
 
+// Answer
 // promise.race will trigger when first promise comes back
 // promise.all will wait for all promises however will hit catch and stop waiting for any remainding promises if one errors
 // promis.allSettled however will wait for all promises to return regardless of any errors
 
+
+//----
 // what is static property in classes?
 
+// Answer
 // class Car {
 //   constructor(make, model) {
 //     this.make = make;
@@ -92,17 +96,22 @@
 // console.log(Car.isCar(myCar)); // Output: true
 // console.log(Car.numberOfWheels()); // Output: 4
 
+
+//----
 // What will happen in the negation for the following code with reason?
 
 // let val = ""
 // val = !!val 
 
-// Answer: false
+// Answer
+// false
 // First exclamation checks if true or false and second does the variable conversion
 
 
+//----
 // Write some code using js classes with inheritace along with getters and setters
 
+// Answer
 // class Animal {
 //   constructor(name) {
 //     this.name = name;
@@ -150,8 +159,10 @@
 // console.log(myDog.dogBreed); // Output: Golden Retriever
 
 
+//----
 // In Js what is a set give me an example of how it might be used in an array?
 
+// Answer
 // In JavaScript, a Set is a built-in object that allows you to store unique values of any type, whether primitive values 
 // or object references. Sets are collections of values where each value can occur only once within the set. Sets provide #
 // methods for adding, removing, and checking for the presence of values.
@@ -166,10 +177,3 @@
 // const arrayWithoutDuplicates = [...uniqueSet];
 
 // console.log(arrayWithoutDuplicates); // Output: [1, 2, 3, 4, 5]
-
-
-
-
-
-
-

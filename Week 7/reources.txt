@@ -1,0 +1,4 @@
+cookies = https://blog.openreplay.com/all-about-cookies-and-javascript/
+
+localStorage = https://blog.logrocket.com/localstorage-javascript-complete-guide/
+
