@@ -1,0 +1,11 @@
+######### Install #########
+npm install --save-dev jest
+###########################
+
+######### Command #########
+npm test -- --coverage
+###########################
+
+- Doc/Courses -
+Doc: https://jestjs.io/docs/getting-started
+Course: https://app.pluralsight.com/library/courses/javascript-unit-testing-jest/table-of-contents
